@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Docker volumes (local mounts)
+docker/volumes/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Logs
+logs/
+*.log
+
+# Model cache (sentence-transformers downloads here)
+.cache/
+models/
+
+# Distribution
+*.tar.gz
+*.whl
